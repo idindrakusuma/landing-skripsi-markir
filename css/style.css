@@ -112,7 +112,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: linear-gradient(45deg,  #ED8F03, #FFB75E);
+  background: #FF8008;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -395,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(52, 59, 64, 0.9);
+  background: rgb(255,128,8, 0.9);
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -916,7 +919,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #pricing .featured .get-started-btn {
-  background: linear-gradient(45deg,  #ED8F03, #FFB75E);
+  background: #FF8008;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 /* Frequently Asked Questions Section
@@ -1186,7 +1192,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: linear-gradient(45deg, #ED8F03, #FFB75E);
+  background: #FF8008;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1224,4 +1233,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-links a:hover {
   color: #ED8F03;
+}
+
+/* indra code */
+.nav-logo {
+  max-width: 120px;
+  height: auto;
 }
