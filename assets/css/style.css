@@ -1244,3 +1244,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 120px;
   height: auto;
 }
+
+.img-footer {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
